@@ -1,11 +1,21 @@
-ol{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* height: 15%; */
-    /* width: 16%; */
-    /* text-align: center; */
-    /* justify-items: space-between; */
-    /* width: auto; */
-    /* height: auto; */
-    /* border:solid beige 1px; */
+#player{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    float: left;
+    justify-content: space-evenly;
+}
+#house{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    float: right;
+    justify-content: space-evenly;
+
+}
+body{
+    text-align: center;
+}
+div{
+    text-align: center;
 }
