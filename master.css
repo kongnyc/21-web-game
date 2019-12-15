@@ -1,3 +1,29 @@
+body{
+    text-align: center;
+} 
+#playerPoint{
+    text-align: center;
+}
+#player{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+#housePoint{
+    text-align: center;
+    overflow: auto;
+}
+#house{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+/*
 #player{
     display: flex;
     flex-direction: row;
@@ -5,17 +31,14 @@
     float: left;
     justify-content: space-evenly;
 }
+#housePoint{
+    display: block;
+    flex-direction: row;
+}
 #house{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    float: right;
+    float: left;
     justify-content: space-evenly;
-
-}
-body{
-    text-align: center;
-}
-div{
-    text-align: center;
-}
+    /* } */
