@@ -1,11 +1,17 @@
 body{
     text-align: center;
+    background-image: url("blackjack.jpg");
+     background-color: #cccccc;
 } 
+h1{
+    color: white;
+}
 #playerPoint{
     text-align: center;
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
+    color: white;
 }
 #player{
     display: flex;
@@ -23,6 +29,7 @@ body{
 }
 
 #housePoint{
+    color: white;
     text-align: center;
     display: inline-block;
     overflow: hidden;
