@@ -3,8 +3,18 @@ body{
 } 
 #playerPoint{
     text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 #player{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+#house{
     display: flex;
     flex-direction: row;
     float: left;
@@ -14,14 +24,9 @@ body{
 
 #housePoint{
     text-align: center;
-    overflow: auto;
-}
-#house{
-    display: flex;
-    flex-direction: row;
-    float: left;
-    margin: 0 auto;
-    justify-content: space-evenly;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 /*
 #player{
